@@ -1,0 +1,23 @@
+.splogo img {
+    height: 0.8cm;
+    width: 3.63cm;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+.title1{
+    font-family: FZShuTi;
+}
+
+.title2{
+    font-family: STLiti;
+}
+
+.title3{
+    text-decoration: none;
+}
+
+.t3{
+    background-image: url("p4\ 1.webp");
+    background-size: cover;
+}

@@ -1,0 +1,18 @@
+.splogo img {
+    height: 0.8cm;
+    width: 3.63cm;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+.title1{
+    font-family: FZShuTi;
+}
+
+.t2{
+    text-shadow: 2px 2px aqua;
+}
+
+.t1{
+    filter: opacity(80%); 
+}

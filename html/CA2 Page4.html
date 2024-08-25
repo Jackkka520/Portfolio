@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <!-- bootstrap stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+  <!-- boxstyles for visualising our grid -->
+  <link rel="stylesheet" type="text/css" href="../css/CA2 Page4.css">
+  <script src="../js/CA2.js" defer></script>
+</head>
+
+<body>
+
+  <header class="p-3 mb-3 border-bottom">
+    <div class="container">
+      <a href="https://www.sp.edu.sg/" class="splogo">
+        <img src="../photo/sp-logo.png" alt="" style="    height: 0.8cm;
+        width: 3.63cm;
+        float: left;
+        margin: 10px 10px 10px 10px;">
+      </a>
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="../html/CA2 Page1.html" class="nav-link px-2 link-dark">Home</a></li>
+          <li><a href="../html/CA2 Page2.html" class="nav-link px-2 link-dark">About school</a></li>
+          <li><a href="../html/CA2 Page3.html" class="nav-link px-2 link-dark">Future option</a></li>
+          <li><a href="../html/CA2 Page4.html" class="nav-link px-2 link-secondary">Feedback</a></li>
+        </ul>
+
+        <div class="text-end"><a href="https://www.sp.edu.sg/"><button type="button"
+              class="btn btn-outline-dark me-2 ">More information</button></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <h4 class="mb-3 t1">Reader's Details</h4>
+  <form class="row g-3 needs-validation" novalidate>
+    <div class="row g-3">
+      <div class="col-sm-3">
+        <label for="validationName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="validationName" value="" required>
+        <div class="invalid-feedback">
+          Valid name is required.
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <label for="validationBirthday" class="form-label">Birthday</label>
+        <input name="studentBirthday" id="validationBirthday" type="date" class="form" required>
+        <div class="invalid-feedback">
+          Please provide a valid birthday.
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <label for="validationGender" class="form-label">Gender</label>
+        <select class="form-select" id="validationGender" required>
+          <option value="">Choose...</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Others</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a vaild gender.
+        </div>
+      </div>
+
+      <div class="col-10">
+        <label for="validationNumber" class="form-label">Contact Number</label>
+        <input type="number" class="form-control" id="validationNumber" placeholder="88888888" required>
+        <div class="invalid-feedback">
+          Please enter a valid contact number.
+        </div>
+      </div>
+
+      <div class="col-10">
+        <label for="validationEmail" class="form-label">Email</label>
+        <input type="email" class="form-control" id="validationEmail" placeholder="you@example.com" required>
+        <div class="invalid-feedback">
+          Please enter a valid email address.
+        </div>
+      </div>
+
+      <div class="col-10">
+        <label for="validationAddress" class="form-label">Address</label>
+        <input type="text" class="form-control" id="validationAddress" placeholder="1234 Main St" required>
+        <div class="invalid-feedback">
+          Please enter a valid address.
+        </div>
+      </div>
+
+    </div>
+
+    <br>
+    <br>
+    <h4 class="mb-3">Evaluation for this website</h4>
+    <div class="list-group mx-0 w-auto">
+      <label class="list-group-item d-flex gap-2">
+        <input class="form-check-input flex-shrink-0" type="radio" name="listGroupRadios" id="listGroupRadios1" value=""
+          checked="">
+        <span>
+          Good
+          <small class="d-block text-muted">I love this website very much.</small>
+        </span>
+      </label>
+      <label class="list-group-item d-flex gap-2">
+        <input class="form-check-input flex-shrink-0" type="radio" name="listGroupRadios" id="listGroupRadios2"
+          value="">
+        <span>
+          Normal
+          <small class="d-block text-muted">I think this website still have potential to improve.</small>
+        </span>
+      </label>
+      <label class="list-group-item d-flex gap-2">
+        <input class="form-check-input flex-shrink-0" type="radio" name="listGroupRadios" id="listGroupRadios3"
+          value="">
+        <span>
+          Bad
+          <small class="d-block text-muted">This website do not arrive the standard of me.</small>
+        </span>
+      </label>
+    </div>
+    <br>
+    <br>
+      <label for="description">Feedback <span class="text-muted">(Optional)</span></label>
+      <textarea id="description" cols="30" rows="20" class="x1"></textarea>
+
+
+    <br>
+    <div class="col-12">
+      <button class="btn btn-primary  btn-lg" type="submit">Submit</button>
+    </div>
+  </form>
+
+
+
+
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="../html/CA2 Page1.html" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="../html/CA2 Page2.html" class="nav-link px-2 text-muted">About school</a></li>
+        <li class="nav-item"><a href="../html/CA2 Page3.html" class="nav-link px-2 text-muted">Future option</a></li>
+        <li class="nav-item"><a href="../html/CA2 Page4.html" class="nav-link px-2 text-muted">Feedback</a></li>
+      </ul>
+      <p class="text-center text-muted">© 2022 SP SOC</p>
+    </footer>
+  </div>
+
+
+  <!-- popper js, required for some bootstrap elements -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

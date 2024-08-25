@@ -1,0 +1,27 @@
+.splogo img {
+    height: 0.8cm;
+    width: 3.63cm;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+.title1{
+    font-family: FZShuTi;
+}
+
+.title2{
+    font-family: STLiti;
+}
+
+.title3{
+    text-decoration: none;
+}
+
+.t3{
+    background-image: linear-gradient(rgb(208, 206, 206),rgb(255, 242, 204));
+}
+
+.t2{
+    transform: rotate(5deg);
+}
+
